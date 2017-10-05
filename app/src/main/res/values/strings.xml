@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">SculptureFitness.2.0</string>
+    <string name="Create_Workout">Create Workout</string>
+    <string name="My_Workouts">My Workouts</string>
+    <string name="Before_After">Before/After</string>
+    <string name="Edit_Workouts">Edit Workouts</string>
+    <string name="CreateWorkoutButton">Create Workout</string>
+    <string name="MyWorkoutsButton">My Workouts</string>
+    <string name="BeforeAfterButton">Before/After</string>
+    <string name="DeleteWorkout">Delete Workouts</string>
+    <string name="EditWorkoutButton">Edit Workout</string>
+    <string name="Muscle_Group">Muscle_Group</string>
+    <string name="title_activity_find__gym">Map</string>
+    <string name="myMapFragment">myMapFragment</string>
+    <string name="ExerciseName">Exercise Name:</string>
+    <string name="EnterNameHere">EnterNameHere</string>
+    <string name="Sets">Sets:</string>
+    <string name="Reps">Reps:</string>
+    <string name="RestTime">Rest Time in Seconds:</string>
+    <string name="Add">Add</string>
+    <string name="title_activity_show_workouts">ShowWorkouts</string>
+    <string name="MuscleType">Muscle:</string>
+    <string name="Update">Update</string>
+    <string name="Ratings">Ratings</string>
+</resources>

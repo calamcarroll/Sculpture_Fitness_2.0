@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.widget.RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/AddCreateWorkout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="ie.app.sculpturefitness20.UpdateProgram">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView2"
+        android:layout_alignBottom="@+id/textView2"
+        android:layout_alignStart="@+id/repPicker"
+        android:text="@string/Reps"
+        android:textColor="@android:color/holo_purple" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/WorkoutNameTextBox"
+        android:layout_below="@+id/WorkoutNameTextBox"
+        android:layout_marginTop="12dp"
+        android:text="@string/Sets"
+        android:textColor="@android:color/holo_purple" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/WorkoutNameTextBox"
+        android:layout_marginTop="15dp"
+        android:text="@string/ExerciseName"
+        android:textColor="@android:color/holo_green_dark" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/UpdateButton"
+        android:layout_alignStart="@+id/setPicker"
+        android:layout_marginBottom="89dp"
+        android:text="@string/RestTime"
+        android:textAppearance="@style/TextAppearance.AppCompat.Caption"
+        android:textColor="@android:color/holo_green_dark" />
+
+    <EditText
+        android:id="@+id/WorkoutNameTextBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="13dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:labelFor="@id/WorkoutName"
+        tools:ignore="LabelFor" />
+
+    <NumberPicker
+        android:id="@+id/setPicker"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="21dp"
+        android:layout_below="@+id/textView2"
+        android:layout_alignStart="@+id/textView2" />
+
+    <NumberPicker
+        android:id="@+id/repPicker"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/setPicker"
+        android:layout_alignBottom="@+id/setPicker"
+        android:layout_toEndOf="@+id/WorkoutNameTextBox" />
+
+    <Button
+        android:id="@+id/UpdateButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="11dp"
+        android:layout_toEndOf="@+id/textView4"
+        android:text="@string/Update" />
+
+    <EditText
+        android:id="@+id/restTimePicker"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="time"
+        tools:ignore="LabelFor"
+        android:layout_alignTop="@+id/textView4"
+        android:layout_centerHorizontal="true" />
+
+</android.widget.RelativeLayout>

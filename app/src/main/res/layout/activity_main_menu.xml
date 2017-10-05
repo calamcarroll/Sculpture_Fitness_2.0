@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.widget.RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/background_dark"
+    android:elevation="2dp"
+    android:visibility="visible">
+
+    <Space
+        android:id="@+id/space"
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:layout_above="@+id/Create_Workout_Button"
+        android:layout_alignParentEnd="true"
+        android:background="@android:color/background_dark"
+        app:layout_constraintHorizontal_bias="0.48"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        tools:ignore="RtlHardcoded"
+        tools:layout_editor_absoluteY="165dp" />
+
+    <Button
+        android:id="@+id/Create_Workout_Button"
+        android:layout_width="200dp"
+        android:layout_height="55dp"
+        android:layout_above="@+id/My_Workouts_Button"
+        android:layout_alignParentStart="true"
+        android:fontFamily="times new roman "
+        android:selectAllOnFocus="false"
+        android:text="@string/CreateWorkoutButton"
+        android:textColor="@android:color/holo_green_dark"
+        tools:ignore="@android:drawable/alert_dark_frame"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="192dp"
+        tools:text="@string/Create_Workout" />
+
+    <Button
+        android:id="@+id/Delete_Workout"
+        android:layout_width="200dp"
+        android:layout_height="55dp"
+        android:layout_above="@+id/Edit_Workouts_Button"
+        android:layout_alignParentEnd="true"
+        android:text="@string/DeleteWorkout"
+        android:textColor="@android:color/holo_green_dark"
+        tools:ignore="HardcodedText,RtlHardcoded"
+        tools:layout_editor_absoluteX="185dp"
+        tools:layout_editor_absoluteY="387dp" />
+
+    <Button
+        android:id="@+id/My_Workouts_Button"
+        android:layout_width="200dp"
+        android:layout_height="55dp"
+        android:layout_above="@+id/Rating"
+        android:layout_alignParentEnd="true"
+        android:text="@string/MyWorkoutsButton"
+        android:textColor="@android:color/holo_green_dark"
+        tools:ignore="HardcodedText,RtlHardcoded"
+        tools:layout_editor_absoluteX="185dp"
+        tools:layout_editor_absoluteY="254dp"
+        tools:text="@string/MyWorkoutsButton" />
+
+    <Button
+        android:id="@+id/Rating"
+        android:layout_width="200dp"
+        android:layout_height="55dp"
+        android:layout_above="@+id/Delete_Workout"
+        android:layout_alignParentStart="true"
+        android:text="@string/Ratings"
+        android:textColor="@android:color/holo_green_dark"
+        tools:ignore="HardcodedText,RtlHardcoded"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="320dp"
+        tools:text="@string/Ratings" />
+
+    <Button
+        android:id="@+id/Edit_Workouts_Button"
+        android:layout_width="200dp"
+        android:layout_height="55dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:text="@string/EditWorkoutButton"
+        android:textColor="@android:color/holo_green_dark"
+        tools:ignore="RtlHardcoded"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="455dp"
+        tools:text="@string/EditWorkoutButton" />
+
+    <ImageView
+        android:id="@+id/myImageViewa"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/space"
+        android:layout_alignParentStart="true"
+        android:background="@drawable/main_menu_image"
+        android:contentDescription=""
+        tools:ignore="ContentDescription" />
+
+</android.widget.RelativeLayout>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="Create_Workout_Button" type="id">Create_Workout_Button</item>
+    <item name="My_Workouts_Button" type="id">My_Workout_Button</item>
+    <item name="Before_After_Button" type="id" >Before_After_Button</item>
+    <item name="Delete_Workout" type="id">Delete Workout</item>
+    <item name="Edit_Workouts_Button" type="id">Find_Gym_Button</item>
+    <item name="myImageView" type="id">myImageView</item>
+    <item name="my_Map" type="id">myMap</item>
+    <item name="MapFrag" type="id">MapFrag</item>
+    <item name="myButton" type="id">myButton</item>
+    <item name="WorkoutNameTextBox" type="id">WorkoutNameTextBox</item>
+    <item name="WorkoutName" type="id">WorkoutName</item>
+    <item name="setPicker" type="id">setPicker</item>
+    <item name="setNumberPicker" type="id">setNumberPicker</item>
+    <item name="repPicker" type="id">repPicker</item>
+    <item name="AddCreateWorkout" type="id">AddCreateWorkout</item>
+    <item name="RestTime" type="id">RestTime</item>
+    <item name="CreateWorkoutProgress" type="id">CreateWorkoutProgress</item>
+    <item name="addWorkout" type="id">addWorkout</item>
+    <item name="restTimePicker" type="id">restTimePicker</item>
+    <item name="myListView" type="id" />
+    <item name="customText" type="id">customText</item>
+    <item name="myImage" type="id">myImage</item>
+    <item name="MuscleType" type="id">MuscleType</item>
+    <item name="ShowWorkoutListView" type="id" />
+    <item name="showExerciseName" type="id">value</item>
+    <item name="showMuscleType" type="id"> value</item>
+    <item name="showExerciseReps" type="id">startActivity(openShowWorkout);</item>
+    <item name="showExerciseSets" type="id">startActivity(openShowWorkout);</item>
+    <item name="showExerciseRestTime" type="id" />
+    <item name="editWorkoutList" type="id">Spinner MuscleChoice</item>
+    <item name="ShowEditListView" type="id">ShowEditListView</item>
+    <item name="UpdateButton" type="id">UpdateButton</item>
+    <item name="DeleteWorkoutListView" type="id">DeleteWorkoutListView</item>
+    <item name="RatingListView" type="id" />
+    <item name="Rating" type="id">Rating</item>
+</resources>
